@@ -8,6 +8,20 @@ El proyecto transita desde las correlaciones clásicas de mecánica de fluidos (
 * Optimización de Arreglos: Comparativa de rendimiento entre arreglos de tubos triangulares (30°) y cuadrados (90°).
 ## Visualización de Resultados
 El notebook incluye herramientas de visualización que permiten identificar el punto óptimo de diseño, donde se maximiza la eficiencia térmica sin exceder los límites operativos de presión.
+## Visualización del Análisis de Sensibilidad
+
+A continuación se presentan los resultados de la simulación paramétrica realizada para el lado de la carcasa. Estas gráficas permiten identificar el comportamiento del sistema bajo diferentes configuraciones geométricas.
+
+### 1. Optimización de Bafles y Límite de Presión
+Esta gráfica muestra cómo el espaciado de bafles afecta la caída de presión y marca el límite de diseño permitido.
+
+![Optimización de Bafles](img/optimizacion_bafles.png)
+
+### 2. Comparativa de Arreglos: Triangular vs. Cuadrado
+En esta visualización se analiza el compromiso (*trade-off*) entre el coeficiente de transferencia de calor y la pérdida de carga para ambos arreglos.
+
+![Comparativa de Arreglos](img/comparativa_arreglos.png)
+
 ## Tecnologías Utilizadas
 * Python: Core del procesamiento y cálculos.
 * NumPy: Manejo de vectores para simulaciones paramétricas.
